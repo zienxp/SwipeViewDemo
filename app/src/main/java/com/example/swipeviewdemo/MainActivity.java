@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.pager);
         adapter = new DemoFragmentCollectionAdpter(getSupportFragmentManager());
         viewPager.setAdapter(adapter);
-
         tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
     }
